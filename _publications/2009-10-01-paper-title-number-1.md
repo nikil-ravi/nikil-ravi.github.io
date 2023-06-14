@@ -1,12 +1,10 @@
 ---
-title: "Turning the Lights on to Keep Them in the Fold: How Governments Preempt Secession Attempts"
+title: "FAIR principles for AI models with a practical application for accelerated high energy diffraction microscopy"
 collection: publications
-permalink: /publication/2021-conflict-preemption
-date: 2021-06-28
-venue: 'Conflict management and Peace Science'
-paperurl: '/files/pdf/research/Turning the Lights on.pdf'
-link: 'https://doi.org/10.1177/07388942211015242'
-code: 'https://journals.sagepub.com/doi/suppl/10.1177/07388942211015242'
-github: 'https://github.com/jayrobwilliams/conflict-preemption'
-citation: 'Williams, Rob. 2021. &quot;Turning the Lights on to Keep Them in the Fold: How Governments Preempt Secession Attempts.&quot; <i>Conflict management and Peace Science</i> doi:10.1177/07388942211015242'
+permalink: /publication/2022-FAIR-AI
+date: 2022-11-10
+venue: 'Nature Sci. Data'
+paperurl: '/files/pdf/research/FAIRPrinciples.pdf'
+link: 'https://doi.org/10.1038/s41597-022-01712-9'
+citation: 'Ravi, N., Chaturvedi, P., Huerta, E.A. et al. FAIR principles for AI models with a practical application for accelerated high energy diffraction microscopy. Sci Data 9, 657 (2022). https://doi.org/10.1038/s41597-022-01712-9'
 ---

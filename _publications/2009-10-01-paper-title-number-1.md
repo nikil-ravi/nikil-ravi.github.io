@@ -1,15 +1,12 @@
 ---
-title: "Paper Title Number 1"
+title: "Turning the Lights on to Keep Them in the Fold: How Governments Preempt Secession Attempts"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/2021-conflict-preemption
+date: 2021-06-28
+venue: 'Conflict management and Peace Science'
+paperurl: '/files/pdf/research/Turning the Lights on.pdf'
+link: 'https://doi.org/10.1177/07388942211015242'
+code: 'https://journals.sagepub.com/doi/suppl/10.1177/07388942211015242'
+github: 'https://github.com/jayrobwilliams/conflict-preemption'
+citation: 'Williams, Rob. 2021. &quot;Turning the Lights on to Keep Them in the Fold: How Governments Preempt Secession Attempts.&quot; <i>Conflict management and Peace Science</i> doi:10.1177/07388942211015242'
 ---
-This paper is about the number 1. The number 2 is left for future work.
-
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
-
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).

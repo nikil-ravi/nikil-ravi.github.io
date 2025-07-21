@@ -15,12 +15,5 @@
       <guid>http://localhost:1313/posts/2024-01-14-information-theory/</guid>
       <description>Fundamental concepts in information theory including entropy and self-information</description>
     </item>
-    <item>
-      <title>Information Theory</title>
-      <link>http://localhost:1313/posts/info-theory-backup/</link>
-      <pubDate>Sun, 14 Jan 2024 10:14:00 -0500</pubDate>
-      <guid>http://localhost:1313/posts/info-theory-backup/</guid>
-      <description>Fundamental concepts in information theory including entropy and self-information</description>
-    </item>
   </channel>
 </rss>

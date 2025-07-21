@@ -29,9 +29,6 @@
     <loc>http://localhost:1313/posts/2024-07-15-vlms/</loc>
     <lastmod>2024-07-15T10:14:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/vlms-backup/</loc>
-    <lastmod>2024-07-15T10:14:00-05:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/vision-language-models/</loc>
     <lastmod>2024-07-15T10:14:00-05:00</lastmod>
   </url><url>
@@ -39,9 +36,6 @@
     <lastmod>2024-01-14T10:14:00-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2024-01-14-information-theory/</loc>
-    <lastmod>2024-01-14T10:14:00-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/info-theory-backup/</loc>
     <lastmod>2024-01-14T10:14:00-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/information-theory/</loc>

@@ -109,6 +109,10 @@ menu:
       name: Tags
       url: /tags/
       weight: 40
+    - identifier: work
+      name: Work
+      url: /work/
+      weight: 50
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true

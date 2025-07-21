@@ -15,12 +15,5 @@
       <guid>http://localhost:1313/posts/2024-07-15-vlms/</guid>
       <description>An overview of Vision Language Models and their applications</description>
     </item>
-    <item>
-      <title>Vision Language Models</title>
-      <link>http://localhost:1313/posts/vlms-backup/</link>
-      <pubDate>Mon, 15 Jul 2024 10:14:00 -0500</pubDate>
-      <guid>http://localhost:1313/posts/vlms-backup/</guid>
-      <description>An overview of Vision Language Models and their applications</description>
-    </item>
   </channel>
 </rss>

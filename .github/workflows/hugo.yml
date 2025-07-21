@@ -77,5 +77,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v5
-        timeout-minutes: 8 
+        uses: actions/deploy-pages@v4 

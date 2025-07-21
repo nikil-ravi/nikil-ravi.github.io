@@ -1,7 +1,7 @@
 ---
 layout: default
-permalink: /blog/
-title: blog
+permalink: /notes/
+title: Learning
 nav: true
 nav_order: 1
 pagination:
@@ -140,7 +140,7 @@ pagination:
         {% endif %}
       </h3>
       <p>{{ post.description }}</p>
-      <p class="post-meta">
+      <!-- <p class="post-meta">
         {{ read_time }} min read &nbsp; &middot; &nbsp;
         {{ post.date | date: '%B %d, %Y' }}
         {% if post.external_source %}
@@ -166,7 +166,7 @@ pagination:
               <i class="fa-solid fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
               {% endfor %}
           {% endif %}
-    </p>
+    </p> -->
 
 {% if post.thumbnail %}
 

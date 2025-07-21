@@ -2,53 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://nikil-ravi.github.io/tags/ai/</loc>
+    <loc>http://localhost:1313/tags/ai/</loc>
     <lastmod>2024-07-15T10:14:00-05:00</lastmod>
   </url><url>
-    <loc>https://nikil-ravi.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2024-07-15T10:14:00-05:00</lastmod>
   </url><url>
-    <loc>https://nikil-ravi.github.io/tags/computer-vision/</loc>
+    <loc>http://localhost:1313/tags/computer-vision/</loc>
     <lastmod>2024-07-15T10:14:00-05:00</lastmod>
   </url><url>
-    <loc>https://nikil-ravi.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-07-15T10:14:00-05:00</lastmod>
   </url><url>
-    <loc>https://nikil-ravi.github.io/tags/nlp/</loc>
+    <loc>http://localhost:1313/tags/nlp/</loc>
     <lastmod>2024-07-15T10:14:00-05:00</lastmod>
   </url><url>
-    <loc>https://nikil-ravi.github.io/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2024-07-15T10:14:00-05:00</lastmod>
   </url><url>
-    <loc>https://nikil-ravi.github.io/categories/research/</loc>
+    <loc>http://localhost:1313/categories/research/</loc>
     <lastmod>2024-07-15T10:14:00-05:00</lastmod>
   </url><url>
-    <loc>https://nikil-ravi.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-07-15T10:14:00-05:00</lastmod>
   </url><url>
-    <loc>https://nikil-ravi.github.io/posts/2024-07-15-vlms/</loc>
+    <loc>http://localhost:1313/posts/2024-07-15-vlms/</loc>
     <lastmod>2024-07-15T10:14:00-05:00</lastmod>
   </url><url>
-    <loc>https://nikil-ravi.github.io/tags/vision-language-models/</loc>
+    <loc>http://localhost:1313/posts/vlms-backup/</loc>
     <lastmod>2024-07-15T10:14:00-05:00</lastmod>
   </url><url>
-    <loc>https://nikil-ravi.github.io/tags/computer-science/</loc>
+    <loc>http://localhost:1313/tags/vision-language-models/</loc>
+    <lastmod>2024-07-15T10:14:00-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/computer-science/</loc>
     <lastmod>2024-01-14T10:14:00-05:00</lastmod>
   </url><url>
-    <loc>https://nikil-ravi.github.io/posts/2024-01-14-information-theory/</loc>
+    <loc>http://localhost:1313/posts/2024-01-14-information-theory/</loc>
     <lastmod>2024-01-14T10:14:00-05:00</lastmod>
   </url><url>
-    <loc>https://nikil-ravi.github.io/tags/information-theory/</loc>
+    <loc>http://localhost:1313/posts/info-theory-backup/</loc>
     <lastmod>2024-01-14T10:14:00-05:00</lastmod>
   </url><url>
-    <loc>https://nikil-ravi.github.io/tags/mathematics/</loc>
+    <loc>http://localhost:1313/tags/information-theory/</loc>
     <lastmod>2024-01-14T10:14:00-05:00</lastmod>
   </url><url>
-    <loc>https://nikil-ravi.github.io/categories/technical/</loc>
+    <loc>http://localhost:1313/tags/mathematics/</loc>
     <lastmod>2024-01-14T10:14:00-05:00</lastmod>
   </url><url>
-    <loc>https://nikil-ravi.github.io/archives/</loc>
+    <loc>http://localhost:1313/categories/technical/</loc>
+    <lastmod>2024-01-14T10:14:00-05:00</lastmod>
   </url><url>
-    <loc>https://nikil-ravi.github.io/search/</loc>
+    <loc>http://localhost:1313/posts/intro-to-lean/</loc>
+  </url><url>
+    <loc>http://localhost:1313/archives/</loc>
+  </url><url>
+    <loc>http://localhost:1313/search/</loc>
   </url>
 </urlset>

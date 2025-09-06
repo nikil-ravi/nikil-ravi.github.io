@@ -1,6 +1,14 @@
 baseURL: "https://nikil-ravi.github.io/"
 title: "Nikil Ravi"
-theme: ["PaperMod"]
+theme: "PaperMod"
+
+module:
+  hugoVersion:
+    extended: true
+    min: "0.87.0"
+  imports:
+    - path: "github.com/adityatelange/hugo-PaperMod"
+      disable: false
 
 pagination:
   pagerSize: 5
@@ -55,20 +63,20 @@ params:
     apple_touch_icon: "<link / abs url>"
     safari_pinned_tab: "<link / abs url>"
 
+  custom_css: ["css/custom.css"]
+
   # home-info mode
   homeInfoParams:
-    Title: "Nikil Ravi"
-    Content: >
+    Title: "Welcome to Nikil's website!"
+    Content: |
 
-      I am a researcher at [Vals AI][https://vals.ai], a startup in San Francisco focused on evaluating language models by producing new benchmarks and evaluating newly released models in
-      an unbiased manner.
-
-      Prior to this, I was an MS student at Stanford specializing in AI, where I was fortunate to be advised by Prof. Percy Liang. I worked on the Marin project, an open lab for building foundation models
-      with a state-of-the-art 8B model released and more to come! You can read more about the project [here][https://marin.community/blog/2025/05/19/announcement/].
-
-      I obtained my Bachelor’s degree in Mathematics and Computer Science from the University of Illinois, Urbana-Champaign, where I worked with Prof. Julia Hockenmaier and Prof. Eliu Huerta.
-
-      I’m always looking to improve myself, and if you have feedback please feel free to let me know here: [https://www.admonymous.co/nikil-ravi](https://www.admonymous.co/nikil-ravi)
+      <p>I am a research scientist at <a href="https://vals.ai">Vals AI</a>, a startup in San Francisco focused on evaluating foundation models by creating new benchmarks and evaluating newly released models in an unbiased manner.</p>
+      <br>
+      <p>Prior to this, I was an MS student at Stanford specializing in AI, where I was fortunate to be advised by Prof. Percy Liang. I worked on the Marin project, an open lab for building foundation models with a state-of-the-art 8B model released and more to come! You can read more about the project <a href="https://marin.community/blog/2025/05/19/announcement/">here</a>.</p>
+      <br>
+      <p>I obtained my Bachelor's degree in Mathematics and Computer Science from the University of Illinois at Urbana-Champaign, where I worked with Prof. Eliu Huerta and Prof. Julia Hockenmaier.</p>
+      <br>
+      <p>I'm always looking to improve myself, and if you have feedback please feel free to let me know here: <a href="https://www.admonymous.co/nikil-ravi">https://www.admonymous.co/nikil-ravi</a></p>
 
   socialIcons:
     - name: github

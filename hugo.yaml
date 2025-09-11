@@ -81,7 +81,7 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/nikil-ravi"
-    - name: twitter
+    - name: x
       url: "https://x.com/nikilravi10"
     - name: email
       url: "mailto:nikilravi10@gmail.com"

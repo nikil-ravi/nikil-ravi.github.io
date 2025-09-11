@@ -67,7 +67,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi, I'm Nikil 👋"
+    Title: "Hi, I'm Nikil!"
 
       <p>I am a research scientist at <a href="https://vals.ai">Vals AI</a>, a startup in San Francisco focused on evaluating foundation models by creating new benchmarks and evaluating newly released models in an unbiased manner.</p>
       <br>
@@ -83,6 +83,8 @@ params:
       url: "https://github.com/nikil-ravi"
     - name: x
       url: "https://x.com/nikilravi10"
+    - name: googlescholar
+      url: "https://scholar.google.com/citations?user=rStqVlkAAAAJ&hl=en"
     - name: email
       url: "mailto:nikilravi10@gmail.com"
 

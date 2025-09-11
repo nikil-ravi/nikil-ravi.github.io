@@ -67,8 +67,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Welcome to Nikil's website!"
-    Content: |
+    Title: "Hi, I'm Nikil 👋"
 
       <p>I am a research scientist at <a href="https://vals.ai">Vals AI</a>, a startup in San Francisco focused on evaluating foundation models by creating new benchmarks and evaluating newly released models in an unbiased manner.</p>
       <br>
@@ -76,7 +75,7 @@ params:
       <br>
       <p>I obtained my Bachelor's degree in Mathematics and Computer Science from the University of Illinois at Urbana-Champaign, where I worked with Prof. Eliu Huerta and Prof. Julia Hockenmaier.</p>
       <br>
-      <p>I'm always looking to improve myself, and if you have feedback please feel free to let me know here: <a href="https://www.admonymous.co/nikil-ravi">https://www.admonymous.co/nikil-ravi</a></p>
+      <p>If you have feedback (or general thoughts) you'd like to tell me about, please let me know here: <a href="https://www.admonymous.co/nikil-ravi">https://www.admonymous.co/nikil-ravi</a></p>
 
   socialIcons:
     - name: github

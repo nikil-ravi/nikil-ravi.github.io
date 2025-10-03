@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Nikil Ravi</title>
-    <link>http://localhost:60771/categories/</link>
+    <link>https://nikil-ravi.github.io/categories/</link>
     <description>Recent content in Categories on Nikil Ravi</description>
     <generator>Hugo -- 0.149.1</generator>
     <language>en</language>
-    <atom:link href="http://localhost:60771/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nikil-ravi.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

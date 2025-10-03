@@ -2,18 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:60771/</loc>
+    <loc>https://nikil-ravi.github.io/</loc>
+    <lastmod>2025-10-03T10:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://nikil-ravi.github.io/tags/mathematics/</loc>
+    <lastmod>2025-10-03T10:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://nikil-ravi.github.io/notes/</loc>
+    <lastmod>2025-10-03T10:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://nikil-ravi.github.io/tags/philosophy/</loc>
+    <lastmod>2025-10-03T10:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://nikil-ravi.github.io/tags/</loc>
+    <lastmod>2025-10-03T10:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://nikil-ravi.github.io/notes/what-numbers-could-not-be/</loc>
+    <lastmod>2025-10-03T10:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://nikil-ravi.github.io/posts/</loc>
     <lastmod>2024-07-15T10:14:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:60771/posts/</loc>
-    <lastmod>2024-07-15T10:14:00-05:00</lastmod>
+    <loc>https://nikil-ravi.github.io/archives/</loc>
   </url><url>
-    <loc>http://localhost:60771/archives/</loc>
+    <loc>https://nikil-ravi.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:60771/categories/</loc>
-  </url><url>
-    <loc>http://localhost:60771/search/</loc>
-  </url><url>
-    <loc>http://localhost:60771/tags/</loc>
+    <loc>https://nikil-ravi.github.io/search/</loc>
   </url>
 </urlset>

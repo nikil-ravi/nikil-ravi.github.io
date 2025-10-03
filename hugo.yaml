@@ -63,7 +63,7 @@ params:
     apple_touch_icon: "<link / abs url>"
     safari_pinned_tab: "<link / abs url>"
 
-  custom_css: ["css/custom.css"]
+  custom_css: ["css/custom.css", "css/notes.css"]
 
   # home-info mode
   homeInfoParams:

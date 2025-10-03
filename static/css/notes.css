@@ -1,0 +1,92 @@
+/* Notes section custom styling */
+.notes-list {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0;
+}
+
+.note-item {
+  margin-bottom: 2rem;
+  padding: 0;
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+.note-meta {
+  color: #999;
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem;
+}
+
+.note-publication {
+  font-style: normal;
+}
+
+.note-title {
+  margin: 0.25rem 0;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.note-title a {
+  color: #e74c3c;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.note-title a:hover {
+  color: #c0392b;
+  text-decoration: none;
+}
+
+.note-tags {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.note-tags .tag {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  background: #f0ad4e;
+  color: #000;
+  font-size: 0.85rem;
+  border-radius: 3px;
+}
+
+/* Page header styling */
+.page-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: none;
+}
+
+.page-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.page-description {
+  color: #666;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Individual note page styling */
+.post-single .post-header {
+  margin-bottom: 2rem;
+}
+
+.post-single .post-content hr {
+  margin: 2rem 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.post-single .post-content p strong:first-child {
+  color: #666;
+  font-weight: 500;
+}
+

@@ -2,8 +2,8 @@
 title: "What Numbers Could not Be"
 date: 2025-10-03T10:00:00-07:00
 draft: false
-tags: ["mathematics", "philosophy"]
-description: "Notes on Paul Benacerraf's paper from The Philosophical Review, 1965"
+tags: ["mathematics", "philosophy", "paper"]
+description: "[The Philosophical Review, 1965]"
 ShowToc: false
 math: true
 ---

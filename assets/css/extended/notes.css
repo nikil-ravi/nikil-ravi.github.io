@@ -14,18 +14,19 @@
   line-height: 1.6;
 }
 
-.note-meta {
-  color: #999;
+.notes-list .note-meta {
+  color: #999 !important;
   font-size: 0.9rem;
   margin-bottom: 0.1rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
-.note-publication {
+.notes-list .note-publication {
   font-style: italic !important;
+  color: #999 !important;
 }
 
-.note-title {
+.notes-list .note-title {
   margin: 0;
   font-size: 1.1rem;
   font-weight: 400;
@@ -33,18 +34,18 @@
   line-height: 1.6;
 }
 
-.note-title a {
-  color: #d9534f;
+.notes-list .note-title a {
+  color: #d9534f !important;
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
-.note-title a:hover {
-  color: #c9302c;
+.notes-list .note-title a:hover {
+  color: #c9302c !important;
   text-decoration: underline;
 }
 
-.note-tags {
+.notes-list .note-tags {
   margin-top: 0;
   margin-left: 0.5rem;
   display: inline-flex;
@@ -53,44 +54,42 @@
   align-items: center;
 }
 
-.note-tags .tag {
+.notes-list .note-tags .tag {
   display: inline-block !important;
   padding: 0.15rem 0.5rem !important;
-  background: #f0ad4e !important;
-  color: #000 !important;
   font-size: 0.75rem !important;
   border-radius: 2px !important;
-  font-weight: 400 !important;
+  font-weight: 300 !important;
   font-style: italic !important;
 }
 
 /* Colorful tag variations - cycling through distinct colors */
-.note-tags .tag:nth-child(6n+1) {
+.notes-list .note-tags .tag:nth-child(1) {
   background: #d9534f !important;
   color: #fff !important;
 }
 
-.note-tags .tag:nth-child(6n+2) {
+.notes-list .note-tags .tag:nth-child(2) {
   background: #5cb85c !important;
   color: #fff !important;
 }
 
-.note-tags .tag:nth-child(6n+3) {
+.notes-list .note-tags .tag:nth-child(3) {
   background: #f0ad4e !important;
   color: #000 !important;
 }
 
-.note-tags .tag:nth-child(6n+4) {
+.notes-list .note-tags .tag:nth-child(4) {
   background: #5bc0de !important;
   color: #fff !important;
 }
 
-.note-tags .tag:nth-child(6n+5) {
+.notes-list .note-tags .tag:nth-child(5) {
   background: #428bca !important;
   color: #fff !important;
 }
 
-.note-tags .tag:nth-child(6n) {
+.notes-list .note-tags .tag:nth-child(6) {
   background: #9b59b6 !important;
   color: #fff !important;
 }
@@ -157,14 +156,5 @@
   display: none;
 }
 
-/* Light mode specific */
-:root {
-  --content: #333;
-  --primary: #d9534f;
-}
-
-body {
-  background: #fff;
-  color: #333;
-}
+/* Light mode specific - only for notes page */
 

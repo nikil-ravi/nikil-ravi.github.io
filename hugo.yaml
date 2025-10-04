@@ -35,8 +35,8 @@ params:
   keywords: [Blog, Portfolio, AI, Research, Computer Science]
   author: "Nikil Ravi"
   DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
-  disableThemeToggle: false
+  defaultTheme: light # dark, light
+  disableThemeToggle: true
 
   ShowReadingTime: true
   ShowShareButtons: false
@@ -63,7 +63,7 @@ params:
     apple_touch_icon: "<link / abs url>"
     safari_pinned_tab: "<link / abs url>"
 
-  custom_css: ["css/custom.css", "css/notes.css"]
+  # custom_css: ["css/custom.css", "css/notes.css"]
 
   # home-info mode
   homeInfoParams:
@@ -118,18 +118,6 @@ menu:
       name: Notes
       url: /notes/
       weight: 15
-    - identifier: archive
-      name: Archive
-      url: /archives/
-      weight: 20
-    - identifier: search
-      name: Search
-      url: /search/
-      weight: 30
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 40
     - identifier: work
       name: Work
       url: /work/

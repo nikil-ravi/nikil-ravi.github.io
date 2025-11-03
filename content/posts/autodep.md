@@ -1,7 +1,7 @@
 ---
 title: "Diagnosing autoformalizations via implication graph checks"
 date: 2025-11-03T00:00:00-05:00
-draft: true
+draft: false
 tags: ["lean", "theorem-prover", "artificial-intelligence", "formal-verification"]
 categories: ["technical"]
 description: "An approach that helps catch misformalizations"

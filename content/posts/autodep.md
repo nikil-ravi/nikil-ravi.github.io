@@ -5,7 +5,7 @@ draft: false
 tags: ["lean", "theorem-prover", "artificial-intelligence", "formal-verification"]
 categories: ["technical"]
 description: "An approach that helps catch misformalizations"
-ShowToc: true
+ShowToc: false
 TocOpen: false
 math: true
 ---

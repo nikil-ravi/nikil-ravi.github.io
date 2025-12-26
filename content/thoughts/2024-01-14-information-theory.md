@@ -1,6 +1,6 @@
 ---
 title: "Information Theory"
-date: 2024-01-14T10:14:00-05:00
+date: 2024-01-14
 draft: true
 tags: ["information-theory", "mathematics", "computer-science"]
 categories: ["technical"]

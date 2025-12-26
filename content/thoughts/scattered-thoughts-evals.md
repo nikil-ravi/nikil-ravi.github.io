@@ -1,7 +1,7 @@
 ---
 title: "Scattered Thoughts on Evals"
-date: 2024-01-01
-draft: false
+date: 2025-12-25
+draft: true
 tags: ["evals"]
 categories: ["technical"]
 description: "Some musings on the current state of evaluations of AI"
@@ -19,14 +19,12 @@ model developers and the broader community. Roughly speaking, a benchmark is jus
 
 
 - *Role of an evaluator*: The role of a neutral third-party evaluator is:
-    -- as models get released, run evaluations on them and surface the results to the broader community in as neutral and useful a way as possible.
-    -- create new evaluations that surface surprising aspects of the systems that are evaluated; this includes both deficiencies as well as 
-    things that the systems are surprisingly good at. 
-    -- help the broader AI community and society interprets the results of the evaluations. Right now, we (the AI community) run a bunch of benchmarks, as a result of which we essentially get a table of numbers. This table of numbers is basically gibberish to the average person trying to get a sense of how good these systems are. Evaluators can help here by being the bridge between these numbers and the consumers of these numbers. 
-    -- analyze and surface insights about aspects of the AI systems other than the raw evaluation scores; this includes things like cost, latency, interesting failure modes, whether the model weights, training/inference code, and scaffolding code is available publicly, and other such information.
-    -- Make the traces corresponding to these evaluations public, and release tooling to be able to usefully egage with these traces
-    -- Be transparent about the infrastructure used to evaluate models (endpoints, inference code, evaluation settings, scaffolding used, etc.)
-    -- 
+  - As models get released, run evaluations on them and surface the results to the broader community in as neutral and useful a way as possible.
+  - create new evaluations that surface surprising aspects of the systems that are evaluated; this includes both deficiencies as well as things that the systems are surprisingly good at
+  - help the broader AI community and society interpret the results of the evaluations. Right now, we (the AI community) run a bunch of benchmarks, as a result of which we essentially get a table of numbers. This table of numbers is basically gibberish to the average person trying to get a sense of how good these systems are. Evaluators can help here by being the bridge between these numbers and the consumers of these numbers.
+  - analyze and surface insights about aspects of the AI systems other than the raw evaluation scores; this includes things like cost, latency, interesting failure modes, whether the model weights, training/inference code, and scaffolding code is available publicly, and other such information.
+  - make the traces corresponding to these evaluations public, and release tooling to be able to usefully engage with these traces.
+  - be transparent about the infrastructure used to evaluate models (endpoints, inference code, evaluation settings, scaffolding used, etc.). 
 
 
 - *What paradigms are currently missing from evaluation today? What is the longer term way to evaluate AI systems?*: 

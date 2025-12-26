@@ -111,8 +111,8 @@ params:
 menu:
   main:
     - identifier: posts
-      name: Posts
-      url: /posts/
+      name: Thoughts
+      url: /thoughts/
       weight: 10
     # - identifier: notes
     #   name: Notes

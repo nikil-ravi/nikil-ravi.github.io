@@ -9,29 +9,14 @@
   {{- end }}
 </header>
 
-<div class="notes-list">
-  {{- range .Pages }}
-  <article class="note-item">
-    <div class="note-meta">
-      {{- if .Params.description }}
-      <span class="note-publication">{{ .Params.description }}</span>
-      {{- end }}
-    </div>
-    <div>
-      <h2 class="note-title">
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
-      </h2>
-      {{- if .Params.tags }}
-      <span class="note-tags">
-        {{- range .Params.tags }}
-        <span class="tag">{{ . }}</span>
-        {{- end }}
-      </span>
-      {{- end }}
-    </div>
-  </article>
-  {{- end }}
+<div class="simple-list">
+  <ul class="simple-list-items">
+    {{- range (where .Pages.ByDate.Reverse "Params.listed" true) }}
+    <li class="simple-list-item">
+      <a class="simple-list-link" href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{- end }}
+  </ul>
 </div>
 
 {{- end }}
-

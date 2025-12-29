@@ -1,160 +1,249 @@
-/* Notes section custom styling */
-.notes-list {
+/* Color palette */
+:root {
+  --accent: #c45a3b;
+  --accent-light: #e8c4b8;
+  --text-primary: #1a1a1a;
+  --text-secondary: #5a5a5a;
+  --text-muted: #8a8a8a;
+  --border-light: #e5e5e5;
+  --bg-subtle: #faf9f7;
+}
+
+/* Home page bio links - terracotta with underline */
+.home-info .entry-content a {
+  color: var(--accent) !important;
+  text-decoration: underline !important;
+  text-underline-offset: 3px;
+}
+
+.home-info .entry-content a:hover {
+  color: #a04830 !important;
+}
+
+/* Notes + Thoughts list styling */
+.simple-list {
   max-width: 900px;
-  margin: 3rem auto;
+  margin: 3.25rem auto;
   padding: 0;
 }
 
-.note-item {
-  margin-bottom: 1.5rem;
-  padding: 0;
-  background: none;
-  border: none;
-  box-shadow: none;
-  line-height: 1.6;
-}
-
-.notes-list .note-meta {
-  color: #999 !important;
-  font-size: 0.9rem;
-  margin-bottom: 0.1rem;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-}
-
-.notes-list .note-publication {
-  font-style: italic !important;
-  color: #999 !important;
-}
-
-.notes-list .note-title {
+.simple-list-items {
+  list-style: none;
   margin: 0;
-  font-size: 1.1rem;
-  font-weight: 400;
-  display: inline;
-  line-height: 1.6;
+  padding: 0;
 }
 
-.notes-list .note-title a {
-  color: #d9534f !important;
-  text-decoration: none;
-  transition: color 0.2s ease;
+.simple-list-item {
+  margin: 0.75rem 0;
+  padding: 0;
 }
 
-.notes-list .note-title a:hover {
-  color: #c9302c !important;
+.simple-list-link {
+  color: inherit;
   text-decoration: underline;
+  text-underline-offset: 3px;
+  line-height: 1.65;
 }
 
-.notes-list .note-tags {
-  margin-top: 0;
-  margin-left: 0.5rem;
-  display: inline-flex;
-  gap: 0.4rem;
-  flex-wrap: wrap;
-  align-items: center;
+.simple-list-link:hover {
+  opacity: 0.75;
 }
 
-.notes-list .note-tags .tag {
-  display: inline-block !important;
-  padding: 0.15rem 0.5rem !important;
-  font-size: 0.75rem !important;
-  border-radius: 2px !important;
-  font-weight: 300 !important;
-  font-style: italic !important;
+.thoughts-list {
+  max-width: 900px;
+  margin: 3.25rem auto;
 }
 
-/* Colorful tag variations - cycling through distinct colors */
-.notes-list .note-tags .tag:nth-child(1) {
-  background: #d9534f !important;
-  color: #fff !important;
+.thoughts-year-group {
+  margin-bottom: 2.5rem;
 }
 
-.notes-list .note-tags .tag:nth-child(2) {
-  background: #5cb85c !important;
-  color: #fff !important;
+.thoughts-year {
+  font-size: 1.4rem;
+  margin: 0 0 0.85rem;
+  color: var(--accent);
+  font-weight: 600;
 }
 
-.notes-list .note-tags .tag:nth-child(3) {
-  background: #f0ad4e !important;
-  color: #000 !important;
+.thoughts-month-group {
+  margin-left: 1.5rem;
+  margin-bottom: 1.35rem;
 }
 
-.notes-list .note-tags .tag:nth-child(4) {
-  background: #5bc0de !important;
-  color: #fff !important;
+.thoughts-month {
+  font-size: 1.1rem;
+  margin: 0 0 0.65rem;
+  color: var(--text-secondary);
+  font-weight: 500;
 }
 
-.notes-list .note-tags .tag:nth-child(5) {
-  background: #428bca !important;
-  color: #fff !important;
-}
-
-.notes-list .note-tags .tag:nth-child(6) {
-  background: #9b59b6 !important;
-  color: #fff !important;
+.thoughts-month-group .simple-list-items {
+  margin-left: 1.5rem;
 }
 
 /* Page header styling */
 .page-header {
-  margin-bottom: 2.5rem;
+  margin-bottom: 3.25rem;
   padding-bottom: 0;
   border-bottom: none;
 }
 
 .page-header h1 {
   font-size: 2.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
   font-weight: 600;
 }
 
 .page-description {
-  color: #555;
+  color: var(--text-secondary);
   font-size: 1rem;
-  line-height: 1.6;
-  margin-top: 0;
+  line-height: 1.75;
+  margin-top: 0.25rem;
 }
 
-/* Individual note page styling */
+/* Individual post page styling */
+.post-single .breadcrumbs {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  letter-spacing: 0.02em;
+  margin-bottom: 2rem;
+}
+
+.post-single .breadcrumbs a {
+  color: var(--text-muted) !important;
+  text-decoration: none !important;
+  transition: color 0.2s ease;
+}
+
+.post-single .breadcrumbs a:hover {
+  color: var(--accent) !important;
+}
+
 .post-single .post-header {
-  margin-bottom: 1.5rem;
+  margin-bottom: 3rem;
+  padding-bottom: 1.75rem;
+  border-bottom: 1px solid var(--border-light);
 }
 
 .post-single .post-title {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+}
+
+.post-single .post-description {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.post-single .post-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.25rem;
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  margin-top: 0;
 }
 
 .post-single .post-content {
-  line-height: 1.7;
-  font-size: 1.05rem;
+  line-height: 1.9;
+  font-size: 1.1rem;
+  color: var(--text-primary);
+}
+
+.post-single .post-content > p:first-of-type {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+}
+
+.post-single .post-content > p:first-of-type::first-letter {
+  font-size: 3.5rem;
+  float: left;
+  line-height: 1;
+  margin-right: 0.15em;
+  margin-top: 0.05em;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.post-single .post-content ul,
+.post-single .post-content ol {
+  padding-left: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.post-single .post-content li {
+  margin-bottom: 1rem;
+  padding-left: 0.5rem;
+}
+
+.post-single .post-content li::marker {
+  color: var(--accent);
+}
+
+.post-single .post-content em {
+  color: var(--text-secondary);
+}
+
+.post-single .post-content strong {
+  font-weight: 600;
+  color: var(--text-primary);
 }
 
 .post-single .post-content hr {
-  margin: 2rem 0;
+  margin: 3rem auto;
   border: none;
-  border-top: 1px solid #e0e0e0;
+  width: 30%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border-light), transparent);
 }
 
-.post-single .post-content p strong:first-of-type {
-  color: #666;
-  font-weight: 500;
+.post-single .post-content blockquote {
+  border-left: 3px solid var(--accent);
+  padding-left: 1.5rem;
+  margin: 2rem 0;
+  font-style: italic;
+  color: var(--text-secondary);
 }
 
-/* Override PaperMod's entry styles for notes */
-.notes-list .post-entry {
-  padding: 0 !important;
-  background: none !important;
-  border: none !important;
-  box-shadow: none !important;
+.post-single .post-content a {
+  color: var(--accent) !important;
+  text-decoration: underline !important;
+  text-decoration-color: var(--accent-light) !important;
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.2s ease;
 }
 
-.notes-list .entry-header {
-  margin-bottom: 0 !important;
+.post-single .post-content a:hover {
+  text-decoration-color: var(--accent) !important;
 }
 
-.notes-list .entry-content {
-  display: none;
+/* Table of Contents styling */
+.post-single .toc {
+  background: var(--bg-subtle);
+  border-radius: 8px;
+  padding: 1.5rem 2rem;
+  margin: 2rem 0;
+  border: 1px solid var(--border-light);
 }
 
-/* Light mode specific - only for notes page */
+.post-single .toc .inner {
+  font-size: 0.95rem;
+}
 
+.post-single .toc a {
+  color: var(--text-secondary) !important;
+  text-decoration: none !important;
+}
+
+.post-single .toc a:hover {
+  color: var(--accent) !important;
+}

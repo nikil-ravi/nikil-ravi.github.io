@@ -1,0 +1,28 @@
+{{- define "main" }}
+
+{{- with site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+  <header class="entry-header">
+    <h1>{{ .Title | markdownify }}</h1>
+  </header>
+  <div class="entry-content">
+    {{ .Content | markdownify }}
+  </div>
+  {{- with site.Params.socialIcons }}
+  <footer class="entry-footer">
+    {{- if templates.Exists "partials/social_icons.html" }}
+    {{- partial "social_icons.html" -}}
+    {{- else }}
+    <div class="social-icons">
+      {{- range . }}
+      <a href="{{ .url }}" target="_blank" rel="noopener noreferrer me" title="{{ .name | title }}">{{ .name }}</a>
+      {{- end }}
+    </div>
+    {{- end }}
+  </footer>
+  {{- end }}
+</article>
+{{- end }}
+
+{{- end }}
+

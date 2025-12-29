@@ -4,15 +4,22 @@
     <title>Information-Theory on Nikil Ravi</title>
     <link>http://localhost:1313/tags/information-theory/</link>
     <description>Recent content in Information-Theory on Nikil Ravi</description>
-    <generator>Hugo -- 0.149.1</generator>
+    <generator>Hugo -- 0.153.4</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Jan 2024 10:14:00 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 03 Oct 2025 12:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/information-theory/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Channel Polarization: A Method for Constructing Capacity-Achieving Codes for Symmetric Binary-Input Memoryless Channels</title>
+      <link>http://localhost:1313/notes/polar-coding/</link>
+      <pubDate>Fri, 03 Oct 2025 12:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/notes/polar-coding/</guid>
+      <description>[IEEE Transactions on Information Theory, 2009]</description>
+    </item>
+    <item>
       <title>Information Theory</title>
-      <link>http://localhost:1313/posts/2024-01-14-information-theory/</link>
-      <pubDate>Sun, 14 Jan 2024 10:14:00 -0500</pubDate>
-      <guid>http://localhost:1313/posts/2024-01-14-information-theory/</guid>
+      <link>http://localhost:1313/thoughts/2024-01-14-information-theory/</link>
+      <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/thoughts/2024-01-14-information-theory/</guid>
       <description>Fundamental concepts in information theory including entropy and self-information</description>
     </item>
   </channel>

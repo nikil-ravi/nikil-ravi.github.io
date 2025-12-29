@@ -4,22 +4,29 @@
     <title>Technical on Nikil Ravi</title>
     <link>http://localhost:1313/categories/technical/</link>
     <description>Recent content in Technical on Nikil Ravi</description>
-    <generator>Hugo -- 0.149.1</generator>
+    <generator>Hugo -- 0.153.4</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Jan 2024 10:14:00 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 03 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/technical/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Diagnosing autoformalizations via implication graph checks</title>
+      <link>http://localhost:1313/thoughts/autodep/</link>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/thoughts/autodep/</guid>
+      <description>An approach that helps catch misformalizations</description>
+    </item>
+    <item>
       <title>Information Theory</title>
-      <link>http://localhost:1313/posts/2024-01-14-information-theory/</link>
-      <pubDate>Sun, 14 Jan 2024 10:14:00 -0500</pubDate>
-      <guid>http://localhost:1313/posts/2024-01-14-information-theory/</guid>
+      <link>http://localhost:1313/thoughts/2024-01-14-information-theory/</link>
+      <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/thoughts/2024-01-14-information-theory/</guid>
       <description>Fundamental concepts in information theory including entropy and self-information</description>
     </item>
     <item>
       <title>Introduction to Lean</title>
-      <link>http://localhost:1313/posts/intro-to-lean/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/posts/intro-to-lean/</guid>
+      <link>http://localhost:1313/thoughts/intro-to-lean/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/thoughts/intro-to-lean/</guid>
       <description>An introduction to Lean, a functional programming language and interactive theorem prover</description>
     </item>
   </channel>

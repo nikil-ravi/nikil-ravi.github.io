@@ -1,39 +1,22 @@
-/* Custom styles for link colors - highly specific to override theme */
-a, a:link, a:visited, a:hover, a:active, a:focus {
-    color: #0066cc !important;
-    text-decoration: none !important;
+/* Base link styling */
+a, a:link, a:visited {
+    color: #c45a3b;
+    text-decoration: none;
+    transition: color 0.2s ease;
 }
 
 a:hover, a:focus {
-    color: #004499 !important;
+    color: #a04830;
+    text-decoration: underline;
+}
+
+/* Home info content links - terracotta with underline */
+.home-info .entry-content a {
+    color: #c45a3b !important;
     text-decoration: underline !important;
+    text-underline-offset: 3px;
 }
 
-a:visited {
-    color: #800080 !important;
-}
-
-/* Target specific content areas */
-.home-info a,
-.entry-content a,
-.post-content a,
-.main a {
-    color: #0066cc !important;
-    text-decoration: none !important;
-}
-
-.home-info a:hover,
-.entry-content a:hover,
-.post-content a:hover,
-.main a:hover {
-    color: #004499 !important;
-    text-decoration: underline !important;
-}
-
-/* Force override with higher specificity */
-body .home-info a,
-body .entry-content a,
-body .post-content a,
-body .main a {
-    color: #0066cc !important;
+.home-info .entry-content a:hover {
+    color: #a04830 !important;
 }

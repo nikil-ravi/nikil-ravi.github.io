@@ -4,7 +4,7 @@
     <title>Mathematics on Nikil Ravi</title>
     <link>http://localhost:1313/tags/mathematics/</link>
     <description>Recent content in Mathematics on Nikil Ravi</description>
-    <generator>Hugo -- 0.149.1</generator>
+    <generator>Hugo -- 0.153.4</generator>
     <language>en</language>
     <lastBuildDate>Fri, 03 Oct 2025 10:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/mathematics/index.xml" rel="self" type="application/rss+xml" />
@@ -14,6 +14,13 @@
       <pubDate>Fri, 03 Oct 2025 10:00:00 -0700</pubDate>
       <guid>http://localhost:1313/notes/what-numbers-could-not-be/</guid>
       <description>[The Philosophical Review, 1965]</description>
+    </item>
+    <item>
+      <title>Information Theory</title>
+      <link>http://localhost:1313/thoughts/2024-01-14-information-theory/</link>
+      <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/thoughts/2024-01-14-information-theory/</guid>
+      <description>Fundamental concepts in information theory including entropy and self-information</description>
     </item>
   </channel>
 </rss>

@@ -13,9 +13,13 @@ math: true
 This post is mostly to jot down some thoughts on the evaluations space in AI right now. I'm going to write these points down as bullet points, so these are going to be more structured thoughts, than a cohesive article.
 
 - *My mental model of evals: a conversation with model developers*: I (currently) view evaluations as a conversation between
-model developers and the broader community. Roughly speaking, a benchmark is just a way to organize a complaint about the capabilities of current models. The cycle is essentially of the form: model developer releases model x.v1 -> academia and evaluators release benchmarks showing areas to improve on -> model developer uses these benchmarks to release x.v2 that performs better on these benchmarks, and so on. Of course, the other role these benchmarks play is to serve as a marker of the capabilities of the models, and can be used to make business decisions about their use, and larger societal decisions about how they integrate into the world around us.
+model developers and the broader community. Roughly speaking, a benchmark is just a way to organize a complaint about the capabilities of current models. This benchmark then serves as an incentive for the model developer to improve their model (as measured by the benchmark), especially if the benchmark score is then going to be used by enterprises and consumers in deciding whether to use their model over someone else's model. The cycle is then essentially of the form: model developer releases model x.v1 -> academia and evaluators release benchmarks showing areas to improve on -> model developer uses these benchmarks to release x.v2 that performs better on these benchmarks -> ..... 
 
-- *It is cool that they correlate with anecdotal experience*: I find it cool that benchmark scores roughly correlate with or impressions using these models. Not always, but the trend is that they do. I find it a nice property of our current evaluations that one can infer from a 15-point gap in SWE-bench which model is likely better for coding, and that this is actually mostly a reasonable conclusion to make. There is a parallel universe where we did not have this property. Benchmarks that have this property (significantly higher score => model is better to use for that task) are quite useful.
+Of course, the other role these benchmarks play is to serve as a marker of the capabilities of the models, and can be used to make business decisions about their use, as well as larger societal decisions about how they integrate into the world around us.
+
+- *It is actually quite cool and underappreciated that they correlate with anecdotal experience using the AI systems*: I find it cool that benchmark scores roughly correlate with our impressions using these models. I find it a nice property of our current evaluations that one can infer from a 15-point gap in SWE-bench which model is likely better for coding, and that this is actually (mostly) a reasonable conclusion to make. There is a parallel universe where we did not have this property. 
+
+Benchmarks that have this property (significantly higher score => model is better to use for that task) are quite useful.
 
 
 - *Role of an evaluator*: The role of a neutral third-party evaluator is:
@@ -27,10 +31,7 @@ model developers and the broader community. Roughly speaking, a benchmark is jus
   - be transparent about the infrastructure used to evaluate models (endpoints, inference code, evaluation settings, scaffolding used, etc.). 
 
 
-- *What paradigms are currently missing from evaluation today? What is the longer term way to evaluate AI systems?*: 
-
-
-- *When we run evaluations on AI models, what are we actually measuring?*
+- *Some unanswered questions*: What paradigms are currently missing from evaluation today? What is the longer term way to evaluate AI systems? When we run evaluations on AI models, what are we actually measuring? I do not know the answers here; I was recently reading a  
 
 
 

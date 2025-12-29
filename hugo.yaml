@@ -86,6 +86,8 @@ params:
       url: "https://x.com/nikilravi10"
     - name: googlescholar
       url: "https://scholar.google.com/citations?user=rStqVlkAAAAJ&hl=en"
+    - name: substack
+      url: "https://substack.com/@nikilravi"
     - name: email
       url: "mailto:nikilravi10@gmail.com"
 

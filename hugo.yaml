@@ -71,10 +71,11 @@ params:
     Content: |
       <p>I am a research scientist at <a href="https://vals.ai">Vals AI</a>, a startup in San Francisco focused on evaluating foundation models by creating new benchmarks and evaluating newly released models in an unbiased manner.</p>
       <br>
-      <p>Prior to this, I was an MS student at Stanford specializing in AI, where I was fortunate to be advised by Prof. Percy Liang. I worked on the Marin project, an open lab for building foundation models with a state-of-the-art 8B model released and more to come! You can read more about the project <a href="https://marin.community/blog/2025/05/19/announcement/">here</a>.
-      I was also a TA for CS 231N with Fei-Fei Li and Ehsan Adeli, and for CS 109 with Chris Piech and Jerry Cain. </p>
+      <p>Prior to this, I was an MS student at Stanford specializing in AI, where I was fortunate to be advised by Prof. <a href="https://cs.stanford.edu/people/percyliang/">Percy Liang</a> and <a href="https://www.linkedin.com/in/dlwhall"">David Hall</a>. I worked on the Marin project, an open lab for building fully-open foundation models with a state-of-the-art 8B model released and more to come! You can read more about the project <a href="https://marin.community/blog/2025/05/19/announcement/">here</a>. </p>
       <br>
-      <p>I obtained my Bachelor's degree in Mathematics and Computer Science from the University of Illinois at Urbana-Champaign, where I worked with Prof. Eliu Huerta and Prof. Julia Hockenmaier.</p>
+      <p>While at Stanford, I was also fortunate to work with Prof. <a href="https://cs.stanford.edu/people/jure/">Jure Leskovec</a> and <a href="https://www.hanchenw.com">Hanchen Wang</a>. I was a TA for <a href="https://cs231n.stanford.edu">CS 231N</a> with <a href="https://profiles.stanford.edu/fei-fei-li">Fei-Fei Li</a> and <a href="https://profiles.stanford.edu/ehsan-adeli">Ehsan Adeli</a>, and for CS 109 with <a href="https://stanford.edu/~cpiech/bio/index.html">Chris Piech</a> and <a href="https://profiles.stanford.edu/gerald-cain">Jerry Cain</a>. </p>
+      <br>
+      <p>I obtained my Bachelor's degree in Mathematics and Computer Science from the University of Illinois at Urbana-Champaign, where I worked with Prof. <a href="https://www.anl.gov/profile/eliu-a-huerta">Eliu Huerta</a> and Prof. <a href="https://juliahmr.cs.illinois.edu">Julia Hockenmaier</a>.</p>
       <br>
       <p>If you have feedback (or general thoughts) you'd like to tell me about, please let me know here: <a href="https://www.admonymous.co/nikil-ravi">https://www.admonymous.co/nikil-ravi</a></p>
 

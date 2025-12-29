@@ -10,13 +10,13 @@ a:hover, a:focus {
     text-decoration: underline;
 }
 
-/* Home info links */
-.home-info a {
-    color: #c45a3b;
-    text-decoration: underline;
+/* Home info content links - terracotta with underline */
+.home-info .entry-content a {
+    color: #c45a3b !important;
+    text-decoration: underline !important;
     text-underline-offset: 3px;
 }
 
-.home-info a:hover {
-    color: #a04830;
+.home-info .entry-content a:hover {
+    color: #a04830 !important;
 }

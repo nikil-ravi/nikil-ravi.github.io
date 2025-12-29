@@ -9,6 +9,17 @@
   --bg-subtle: #faf9f7;
 }
 
+/* Home page bio links - terracotta with underline */
+.home-info .entry-content a {
+  color: var(--accent) !important;
+  text-decoration: underline !important;
+  text-underline-offset: 3px;
+}
+
+.home-info .entry-content a:hover {
+  color: #a04830 !important;
+}
+
 /* Notes + Thoughts list styling */
 .simple-list {
   max-width: 900px;

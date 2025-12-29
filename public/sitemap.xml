@@ -61,8 +61,6 @@
   </url><url>
     <loc>http://localhost:1313/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/evals/</loc>
-  </url><url>
     <loc>http://localhost:1313/search/</loc>
   </url>
 </urlset>

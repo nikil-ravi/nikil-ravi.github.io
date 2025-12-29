@@ -114,14 +114,14 @@ menu:
       name: Thoughts
       url: /thoughts/
       weight: 10
-    # - identifier: notes
-    #   name: Notes
-    #   url: /notes/
-    #   weight: 15
-    - identifier: work
-      name: Work
-      url: /work/
-      weight: 50
+    - identifier: notes
+      name: Notes
+      url: /notes/
+      weight: 15
+    # - identifier: work
+    #   name: Work
+    #   url: /work/
+    #   weight: 50
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true

@@ -1,0 +1,32 @@
+{{- define "main" }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- if .Content }}
+  <div class="page-description">
+    {{ .Content }}
+  </div>
+  {{- end }}
+</header>
+
+<div class="thoughts-list">
+  {{- range (.Pages.ByDate.Reverse.GroupByDate "2006") }}
+  <section class="thoughts-year-group">
+    <h2 class="thoughts-year">{{ .Key }}</h2>
+    {{- range (.Pages.ByDate.Reverse.GroupByDate "January") }}
+    <div class="thoughts-month-group">
+      <h3 class="thoughts-month">{{ .Key }}</h3>
+      <ul class="simple-list-items">
+        {{- range .Pages.ByDate.Reverse }}
+        <li class="simple-list-item">
+          <a class="simple-list-link" href="{{ .Permalink }}">{{ .Title }}</a>
+        </li>
+        {{- end }}
+      </ul>
+    </div>
+    {{- end }}
+  </section>
+  {{- end }}
+</div>
+
+{{- end }}

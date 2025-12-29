@@ -1,97 +1,57 @@
-/* Notes section custom styling */
-.notes-list {
+/* Notes + Thoughts list styling */
+.simple-list {
   max-width: 900px;
-  margin: 3rem auto;
+  margin: 2.5rem auto;
   padding: 0;
 }
 
-.note-item {
-  margin-bottom: 1.5rem;
-  padding: 0;
-  background: none;
-  border: none;
-  box-shadow: none;
-  line-height: 1.6;
-}
-
-.notes-list .note-meta {
-  color: #999 !important;
-  font-size: 0.9rem;
-  margin-bottom: 0.1rem;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-}
-
-.notes-list .note-publication {
-  font-style: italic !important;
-  color: #999 !important;
-}
-
-.notes-list .note-title {
+.simple-list-items {
+  list-style: none;
   margin: 0;
-  font-size: 1.1rem;
-  font-weight: 400;
-  display: inline;
-  line-height: 1.6;
+  padding: 0;
 }
 
-.notes-list .note-title a {
-  color: #d9534f !important;
-  text-decoration: none;
-  transition: color 0.2s ease;
+.simple-list-item {
+  margin: 0.4rem 0;
+  padding: 0;
 }
 
-.notes-list .note-title a:hover {
-  color: #c9302c !important;
+.simple-list-link {
+  color: inherit;
   text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
-.notes-list .note-tags {
-  margin-top: 0;
-  margin-left: 0.5rem;
-  display: inline-flex;
-  gap: 0.4rem;
-  flex-wrap: wrap;
-  align-items: center;
+.simple-list-link:hover {
+  opacity: 0.75;
 }
 
-.notes-list .note-tags .tag {
-  display: inline-block !important;
-  padding: 0.15rem 0.5rem !important;
-  font-size: 0.75rem !important;
-  border-radius: 2px !important;
-  font-weight: 300 !important;
-  font-style: italic !important;
+.thoughts-list {
+  max-width: 900px;
+  margin: 2.5rem auto;
 }
 
-/* Colorful tag variations - cycling through distinct colors */
-.notes-list .note-tags .tag:nth-child(1) {
-  background: #d9534f !important;
-  color: #fff !important;
+.thoughts-year-group {
+  margin-bottom: 1.75rem;
 }
 
-.notes-list .note-tags .tag:nth-child(2) {
-  background: #5cb85c !important;
-  color: #fff !important;
+.thoughts-year {
+  font-size: 1.4rem;
+  margin: 0 0 0.6rem;
 }
 
-.notes-list .note-tags .tag:nth-child(3) {
-  background: #f0ad4e !important;
-  color: #000 !important;
+.thoughts-month-group {
+  margin-left: 1.25rem;
+  margin-bottom: 1rem;
 }
 
-.notes-list .note-tags .tag:nth-child(4) {
-  background: #5bc0de !important;
-  color: #fff !important;
+.thoughts-month {
+  font-size: 1.1rem;
+  margin: 0 0 0.4rem;
 }
 
-.notes-list .note-tags .tag:nth-child(5) {
-  background: #428bca !important;
-  color: #fff !important;
-}
-
-.notes-list .note-tags .tag:nth-child(6) {
-  background: #9b59b6 !important;
-  color: #fff !important;
+.thoughts-month-group .simple-list-items {
+  margin-left: 1.25rem;
 }
 
 /* Page header styling */
@@ -139,22 +99,3 @@
   color: #666;
   font-weight: 500;
 }
-
-/* Override PaperMod's entry styles for notes */
-.notes-list .post-entry {
-  padding: 0 !important;
-  background: none !important;
-  border: none !important;
-  box-shadow: none !important;
-}
-
-.notes-list .entry-header {
-  margin-bottom: 0 !important;
-}
-
-.notes-list .entry-content {
-  display: none;
-}
-
-/* Light mode specific - only for notes page */
-

@@ -69,7 +69,7 @@ params:
   homeInfoParams:
     Title: "Hi, I'm Nikil 👋"
     Content: |
-      <p>I am a research scientist at <a href="https://vals.ai">Vals AI</a>, a startup in San Francisco focused on evaluating foundation models by creating new benchmarks and evaluating newly released models in an unbiased manner.</p>
+      <p>I work at <a href="https://vals.ai">Vals AI</a>, a startup in San Francisco focused on evaluating AI systems by creating new benchmarks and evaluating newly released models in an unbiased manner.</p>
       <br>
       <p>Prior to this, I was an MS student at Stanford specializing in AI, where I was fortunate to be advised by Prof. <a href="https://cs.stanford.edu/people/percyliang/">Percy Liang</a> and <a href="https://www.linkedin.com/in/dlwhall"">David Hall</a>. I worked on the Marin project, an open lab for building fully-open foundation models with a state-of-the-art 8B model released and more to come! You can read more about the project <a href="https://marin.community/blog/2025/05/19/announcement/">here</a>. </p>
       <br>

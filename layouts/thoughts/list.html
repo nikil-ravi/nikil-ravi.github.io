@@ -11,14 +11,14 @@
 
 <div class="thoughts-list">
   {{- $pages := where .Pages "Params.listed" true }}
-  {{- range ($pages.ByDate.Reverse.GroupByDate "2006" "desc") }}
+  {{- range ($pages.ByDate.GroupByDate "2006" "asc") }}
   <section class="thoughts-year-group">
     <h2 class="thoughts-year">{{ .Key }}</h2>
-    {{- range (.Pages.ByDate.Reverse.GroupByDate "January" "desc") }}
+    {{- range (.Pages.ByDate.GroupByDate "January" "asc") }}
     <div class="thoughts-month-group">
       <h3 class="thoughts-month">{{ .Key }}</h3>
       <ul class="simple-list-items">
-        {{- range .Pages.ByDate.Reverse }}
+        {{- range .Pages.ByDate }}
         <li class="simple-list-item">
           <a class="simple-list-link" href="{{ .Permalink }}">{{ .Title }}</a>
         </li>

@@ -12,8 +12,8 @@
 <div class="thoughts-list">
   {{- $pages := where .Pages "Params.listed" true }}
   {{- range ($pages.ByDate.Reverse.GroupByDate "January 2006" "desc") }}
-  <section class="thoughts-month-group">
-    <h2 class="thoughts-month">{{ .Key }}</h2>
+  <section class="thoughts-year-group">
+    <h2 class="thoughts-year">{{ .Key }}</h2>
     <ul class="simple-list-items">
       {{- range .Pages.ByDate.Reverse }}
       <li class="simple-list-item">

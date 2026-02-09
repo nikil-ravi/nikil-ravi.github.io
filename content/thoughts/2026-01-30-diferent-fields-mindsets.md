@@ -1,6 +1,6 @@
 ---
 title: "The math mindset vs. the deep learning mindset"
-date: 2025-01-30
+date: 2026-01-30
 draft: false
 listed: true
 tags: []

@@ -1,5 +1,5 @@
 ---
-title: "The math mindset vs. the deep learning mindset, and what they can teach you"
+title: "The math mindset vs. the deep learning mindset"
 date: 2025-01-30
 draft: false
 listed: true

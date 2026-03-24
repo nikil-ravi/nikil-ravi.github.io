@@ -1,5 +1,5 @@
 ---
-title: "Pre-critiquing"
+title: "Pre-critiquing Myself"
 date: 2026-02-08
 draft: false
 listed: true

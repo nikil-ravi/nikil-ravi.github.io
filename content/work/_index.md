@@ -5,7 +5,7 @@ summary: "Work"
 cascade:
   build:
     list: local
-  listed: false
+  listed: true
 ---
 
 - [Valkyrie](https://github.com/vals-ai/Valkyrie): scalable, cloud-native infrastructure for evaluating AI agents across benchmarks.

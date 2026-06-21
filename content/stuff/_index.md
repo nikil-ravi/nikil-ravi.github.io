@@ -13,3 +13,4 @@ cascade:
 - [Mathematical Writing by Donald E. Knuth, Tracy Larrabee, and Paul M. Roberts](https://jmlr.csail.mit.edu/reviewing-papers/knuth_mathematical_writing.pdf)
 - [The Polar Coding paper, Erdal Arikan](https://arxiv.org/abs/0807.3917)
 - [Using matrices to model symbolic relationships, Ilya Sutskever and Geoffrey Hinton](http://www.cs.utoronto.ca/~ilya/pubs/2008/mre.pdf)
+- [A Much Repeated Repetition](https://www.pdcnet.org/pdc/bvdb.nsf/purchase26?openform&fp=chesterton&id=chesterton_1993_0019_0002_0145_0147)

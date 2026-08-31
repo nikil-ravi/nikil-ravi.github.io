@@ -8,7 +8,7 @@ cascade:
   listed: true
 ---
 
-- [Valkyrie](https://github.com/vals-ai/Valkyrie): scalable, cloud-native infrastructure for evaluating AI agents across benchmarks.
+- [ReverseEngBench](https://arxiv.org/abs/2608.11469): realistic, contamination-free benchmark for evaluating agentic reverse engineering capabilities on binary programs.
 - [FormalProofBench](https://arxiv.org/abs/2603.26996): benchmark for evaluating whether frontier models can write graduate-level Lean proofs that pass formal verification.
 - [Marin](https://marin.community/blog/2025/05/19/announcement/): open lab for building fully open foundation models with transparent experiments, data, and training code.
 - [REAL](https://arxiv.org/abs/2504.11543): benchmark for autonomous agents on deterministic simulations of real websites.
